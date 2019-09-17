@@ -35,5 +35,17 @@ public class Calculadora {
 		}
 		System.out.println("El resultado es "+ resultado.toString());
 	}
+	public static Integer sumar(Integer a, Integer b) {
+		return a+b;
+	}
+	public static Integer restar(Integer a, Integer b) {
+		return a-b;
+	}
+	public static Integer multiplicar(Integer a, Integer b) {
+		return a*b;
+	}
+	public static Integer dividir(Integer a, Integer b) {
+		return a/b;
+	}
 	
 }
