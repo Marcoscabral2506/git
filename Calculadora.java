@@ -18,16 +18,16 @@ public class Calculadora {
 		 
 		switch (opcion) {
 		case 1:
-			resultado=a+b;
+			resultado=sumar(a,b);
 			break;
 		case 2:
-			resultado=a-b;			
+			resultado=restar(a,b);			
 			break;
 		case 3:
-			resultado=a*b;
+			resultado=multiplicar(a,b);
 			break;
 		case 4:
-			resultado=a/b;
+			resultado=dividir(a,b);
 			break;
 
 		default:
